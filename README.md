@@ -1,4 +1,3 @@
-# pythonenvironmentbootstrapper
 # Python Project Setup Script
 
 ## What the script does
