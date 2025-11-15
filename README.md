@@ -31,3 +31,25 @@ sudo apt install python3
 
 # Install the venv module for virtual environments
 sudo apt install python3-venv
+
+---
+
+## How to execute the script
+
+1. Make the script executable (first time only):
+
+```bash
+chmod +x setup.sh
+
+2. Run the Script
+chmod +x setup.sh
+
+
+The script will create and activate a virtual environment (venv/)
+
+Install pip and required packages
+
+Create .gitignore if missing
+
+Log output to setup.log with timestamps
+
