@@ -43,7 +43,8 @@ chmod +x setup.sh
 ```
 2. Run the Script
 ```
-chmod +x setup.sh
+./setup.sh
+
 ```
 
 The script will create and activate a virtual environment (venv/)
