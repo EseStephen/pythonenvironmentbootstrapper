@@ -76,7 +76,7 @@ Terminal Output:
 ---
 
 ## Challenges faced and lessons learned
-Writing clean logs: Initially, terminal colors (ANSI escape codes) ended up in the log file, making it unreadable. Solving this required careful redirection and filtering so that colored output remains in the terminal but logs are plain text with timestamps.
+Writing clean logs: The terminal colors (ANSI escape codes) ended up in the log file, which affects the readability. I tried several methods but the only one that seemed to works removes the colour from the terminal so for now I left it with the status colour.
 
 Handling errors safely: Ensuring that any failure in pip, virtual environment creation, or activation immediately stops the script with a clear error message improved script robustness.
 
